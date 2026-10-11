@@ -1,0 +1,415 @@
+[Version]
+Signature   = "$Windows NT$"
+Class       = Net
+ClassGUID   = {4d36e972-e325-11ce-bfc1-08002be10318}
+Provider    = %Provider%
+CatalogFile = e1000ev.cat
+DriverVer   = 10/10/2026,1.0.0.0
+
+[Manufacturer]
+%Intel% = Intel, NTamd64
+
+[ControlFlags]
+ExcludeFromSelect = *
+
+[Intel.NTamd64]
+; - I217 / I218
+%E153A.DeviceDesc% = E1000ev.ndi, PCI\VEN_8086&DEV_153A
+%E153B.DeviceDesc% = E1000ev.ndi, PCI\VEN_8086&DEV_153B
+%E155A.DeviceDesc% = E1000ev.ndi, PCI\VEN_8086&DEV_155A
+%E1559.DeviceDesc% = E1000ev.ndi, PCI\VEN_8086&DEV_1559
+%E15A0.DeviceDesc% = E1000ev.ndi, PCI\VEN_8086&DEV_15A0
+%E15A1.DeviceDesc% = E1000ev.ndi, PCI\VEN_8086&DEV_15A1
+%E15A2.DeviceDesc% = E1000ev.ndi, PCI\VEN_8086&DEV_15A2
+%E15A3.DeviceDesc% = E1000ev.ndi, PCI\VEN_8086&DEV_15A3
+; - I219
+%E156F.DeviceDesc% = E1000ev.ndi, PCI\VEN_8086&DEV_156F
+%E1570.DeviceDesc% = E1000ev.ndi, PCI\VEN_8086&DEV_1570
+%E15B7.DeviceDesc% = E1000ev.ndi, PCI\VEN_8086&DEV_15B7
+%E15B8.DeviceDesc% = E1000ev.ndi, PCI\VEN_8086&DEV_15B8
+%E15B9.DeviceDesc% = E1000ev.ndi, PCI\VEN_8086&DEV_15B9
+%E15D7.DeviceDesc% = E1000ev.ndi, PCI\VEN_8086&DEV_15D7
+%E15D8.DeviceDesc% = E1000ev.ndi, PCI\VEN_8086&DEV_15D8
+%E15E3.DeviceDesc% = E1000ev.ndi, PCI\VEN_8086&DEV_15E3
+%E15D6.DeviceDesc% = E1000ev.ndi, PCI\VEN_8086&DEV_15D6
+%E15BD.DeviceDesc% = E1000ev.ndi, PCI\VEN_8086&DEV_15BD
+%E15BE.DeviceDesc% = E1000ev.ndi, PCI\VEN_8086&DEV_15BE
+%E15BB.DeviceDesc% = E1000ev.ndi, PCI\VEN_8086&DEV_15BB
+%E15BC.DeviceDesc% = E1000ev.ndi, PCI\VEN_8086&DEV_15BC
+%E15DF.DeviceDesc% = E1000ev.ndi, PCI\VEN_8086&DEV_15DF
+%E15E0.DeviceDesc% = E1000ev.ndi, PCI\VEN_8086&DEV_15E0
+%E15E1.DeviceDesc% = E1000ev.ndi, PCI\VEN_8086&DEV_15E1
+%E15E2.DeviceDesc% = E1000ev.ndi, PCI\VEN_8086&DEV_15E2
+%E0D4E.DeviceDesc% = E1000ev.ndi, PCI\VEN_8086&DEV_0D4E
+%E0D4F.DeviceDesc% = E1000ev.ndi, PCI\VEN_8086&DEV_0D4F
+%E0D4C.DeviceDesc% = E1000ev.ndi, PCI\VEN_8086&DEV_0D4C
+%E0D4D.DeviceDesc% = E1000ev.ndi, PCI\VEN_8086&DEV_0D4D
+%E0D53.DeviceDesc% = E1000ev.ndi, PCI\VEN_8086&DEV_0D53
+%E0D55.DeviceDesc% = E1000ev.ndi, PCI\VEN_8086&DEV_0D55
+%E15FB.DeviceDesc% = E1000ev.ndi, PCI\VEN_8086&DEV_15FB
+%E15FC.DeviceDesc% = E1000ev.ndi, PCI\VEN_8086&DEV_15FC
+%E15F9.DeviceDesc% = E1000ev.ndi, PCI\VEN_8086&DEV_15F9
+%E15FA.DeviceDesc% = E1000ev.ndi, PCI\VEN_8086&DEV_15FA
+%E15F4.DeviceDesc% = E1000ev.ndi, PCI\VEN_8086&DEV_15F4
+%E15F5.DeviceDesc% = E1000ev.ndi, PCI\VEN_8086&DEV_15F5
+%E1A1E.DeviceDesc% = E1000ev.ndi, PCI\VEN_8086&DEV_1A1E
+%E1A1F.DeviceDesc% = E1000ev.ndi, PCI\VEN_8086&DEV_1A1F
+%E1A1C.DeviceDesc% = E1000ev.ndi, PCI\VEN_8086&DEV_1A1C
+%E1A1D.DeviceDesc% = E1000ev.ndi, PCI\VEN_8086&DEV_1A1D
+%E550C.DeviceDesc% = E1000ev.ndi, PCI\VEN_8086&DEV_550C
+%E550D.DeviceDesc% = E1000ev.ndi, PCI\VEN_8086&DEV_550D
+%E0DC7.DeviceDesc% = E1000ev.ndi, PCI\VEN_8086&DEV_0DC7
+%E0DC8.DeviceDesc% = E1000ev.ndi, PCI\VEN_8086&DEV_0DC8
+%E0DC5.DeviceDesc% = E1000ev.ndi, PCI\VEN_8086&DEV_0DC5
+%E0DC6.DeviceDesc% = E1000ev.ndi, PCI\VEN_8086&DEV_0DC6
+%E550A.DeviceDesc% = E1000ev.ndi, PCI\VEN_8086&DEV_550A
+%E550B.DeviceDesc% = E1000ev.ndi, PCI\VEN_8086&DEV_550B
+%E550E.DeviceDesc% = E1000ev.ndi, PCI\VEN_8086&DEV_550E
+%E550F.DeviceDesc% = E1000ev.ndi, PCI\VEN_8086&DEV_550F
+%E5510.DeviceDesc% = E1000ev.ndi, PCI\VEN_8086&DEV_5510
+%E5511.DeviceDesc% = E1000ev.ndi, PCI\VEN_8086&DEV_5511
+%E57A0.DeviceDesc% = E1000ev.ndi, PCI\VEN_8086&DEV_57A0
+%E57A1.DeviceDesc% = E1000ev.ndi, PCI\VEN_8086&DEV_57A1
+%E57B3.DeviceDesc% = E1000ev.ndi, PCI\VEN_8086&DEV_57B3
+%E57B4.DeviceDesc% = E1000ev.ndi, PCI\VEN_8086&DEV_57B4
+%E57B7.DeviceDesc% = E1000ev.ndi, PCI\VEN_8086&DEV_57B7
+%E57B8.DeviceDesc% = E1000ev.ndi, PCI\VEN_8086&DEV_57B8
+%E57B9.DeviceDesc% = E1000ev.ndi, PCI\VEN_8086&DEV_57B9
+%E57BA.DeviceDesc% = E1000ev.ndi, PCI\VEN_8086&DEV_57BA
+
+;----------
+; install
+;----------
+
+[E1000ev.ndi.NTamd64]
+Characteristics    = 0x84    ; NCF_PHYSICAL | NCF_HAS_UI
+BusType            = 5       ; PCIBus
+*IfType            = 6       ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0       ; NdisMedium802_3
+*PhysicalMediaType = 14      ; NdisPhysicalMedium802_3
+AddReg             = E1000ev.Reg, NetworkAddress.Reg, Link.Reg, Buffers.Reg
+AddReg             = Offload.Reg, Vlan.Reg, Interrupt.Reg, Power.Reg
+CopyFiles          = E1000ev.CopyFiles
+
+[E1000ev.ndi.NTamd64.HW]
+AddReg             = MSI.Reg
+
+[E1000ev.ndi.NTamd64.Services]
+AddService = e1000ev, 2, E1000ev.Service, E1000ev.EventLog
+
+[E1000ev.Reg]
+HKR, Ndi,               Service,    0, "e1000ev"
+HKR, Ndi\Interfaces,    UpperRange, 0, "ndis5"
+HKR, Ndi\Interfaces,    LowerRange, 0, "ethernet"
+
+[MSI.Reg]
+HKR, "Interrupt Management", 0x00000010
+HKR, "Interrupt Management\MessageSignaledInterruptProperties", 0x00000010
+HKR, "Interrupt Management\MessageSignaledInterruptProperties", MSISupported,       0x00010001, 1
+HKR, "Interrupt Management\MessageSignaledInterruptProperties", MessageNumberLimit, 0x00010001, 1
+
+[NetworkAddress.Reg]
+HKR, Ndi\Params\NetworkAddress, ParamDesc, 0, %NetworkAddress%
+HKR, Ndi\Params\NetworkAddress, Type,      0, "edit"
+HKR, Ndi\Params\NetworkAddress, Default,   0, ""
+HKR, Ndi\Params\NetworkAddress, LimitText, 0, "12"
+HKR, Ndi\Params\NetworkAddress, UpperCase, 0, "1"
+HKR, Ndi\Params\NetworkAddress, Optional,  0, "1"
+
+[Link.Reg]
+HKR, Ndi\Params\*SpeedDuplex,           ParamDesc, 0, %SpeedDuplex%
+HKR, Ndi\Params\*SpeedDuplex,           Type,      0, "enum"
+HKR, Ndi\Params\*SpeedDuplex,           Default,   0, "0"
+HKR, Ndi\Params\*SpeedDuplex\Enum,      "0",       0, %AutoNegotiation%
+HKR, Ndi\Params\*SpeedDuplex\Enum,      "1",       0, %10Mb_Half_Duplex%
+HKR, Ndi\Params\*SpeedDuplex\Enum,      "2",       0, %10Mb_Full_Duplex%
+HKR, Ndi\Params\*SpeedDuplex\Enum,      "3",       0, %100Mb_Half_Duplex%
+HKR, Ndi\Params\*SpeedDuplex\Enum,      "4",       0, %100Mb_Full_Duplex%
+HKR, Ndi\Params\*SpeedDuplex\Enum,      "6",       0, %1000Mb_Full_Duplex%
+
+HKR, Ndi\Params\*FlowControl,           ParamDesc, 0, %FlowControl%
+HKR, Ndi\Params\*FlowControl,           Type,      0, "enum"
+HKR, Ndi\Params\*FlowControl,           Default,   0, "3"
+HKR, Ndi\Params\*FlowControl\Enum,      "0",       0, %Disabled%
+HKR, Ndi\Params\*FlowControl\Enum,      "1",       0, %FlowControl_TxOnly%
+HKR, Ndi\Params\*FlowControl\Enum,      "2",       0, %FlowControl_RxOnly%
+HKR, Ndi\Params\*FlowControl\Enum,      "3",       0, %FlowControl_Full%
+
+HKR, Ndi\Params\EEELinkAdvertisement,      ParamDesc, 0, %EEELinkAdvertisement%
+HKR, Ndi\Params\EEELinkAdvertisement,      Type,      0, "enum"
+HKR, Ndi\Params\EEELinkAdvertisement,      Default,   0, "1"
+HKR, Ndi\Params\EEELinkAdvertisement\Enum, "0",       0, %Off%
+HKR, Ndi\Params\EEELinkAdvertisement\Enum, "1",       0, %On%
+
+HKR, Ndi\Params\*JumboPacket,           ParamDesc, 0, %JumboPacket%
+HKR, Ndi\Params\*JumboPacket,           Type,      0, "enum"
+HKR, Ndi\Params\*JumboPacket,           Default,   0, "1514"
+HKR, Ndi\Params\*JumboPacket\Enum,      "1514",    0, %Disabled%
+HKR, Ndi\Params\*JumboPacket\Enum,      "4088",    0, %Bytes4088%
+HKR, Ndi\Params\*JumboPacket\Enum,      "9014",    0, %Bytes9014%
+
+[Buffers.Reg]
+HKR, Ndi\Params\*TransmitBuffers,       ParamDesc, 0, %TransmitBuffers%
+HKR, Ndi\Params\*TransmitBuffers,       Type,      0, "int"
+HKR, Ndi\Params\*TransmitBuffers,       Default,   0, "512"
+HKR, Ndi\Params\*TransmitBuffers,       Min,       0, "80"
+HKR, Ndi\Params\*TransmitBuffers,       Max,       0, "2048"
+HKR, Ndi\Params\*TransmitBuffers,       Step,      0, "8"
+HKR, Ndi\Params\*TransmitBuffers,       Base,      0, "10"
+
+HKR, Ndi\Params\*ReceiveBuffers,        ParamDesc, 0, %ReceiveBuffers%
+HKR, Ndi\Params\*ReceiveBuffers,        Type,      0, "int"
+HKR, Ndi\Params\*ReceiveBuffers,        Default,   0, "256"
+HKR, Ndi\Params\*ReceiveBuffers,        Min,       0, "80"
+HKR, Ndi\Params\*ReceiveBuffers,        Max,       0, "2048"
+HKR, Ndi\Params\*ReceiveBuffers,        Step,      0, "8"
+HKR, Ndi\Params\*ReceiveBuffers,        Base,      0, "10"
+
+[Offload.Reg]
+HKR, Ndi\Params\*IPChecksumOffloadIPv4,      ParamDesc, 0, %IPChksumOffv4%
+HKR, Ndi\Params\*IPChecksumOffloadIPv4,      Type,      0, "enum"
+HKR, Ndi\Params\*IPChecksumOffloadIPv4,      Default,   0, "3"
+HKR, Ndi\Params\*IPChecksumOffloadIPv4\Enum, "0",       0, %Disabled%
+HKR, Ndi\Params\*IPChecksumOffloadIPv4\Enum, "1",       0, %ChksumOffTx%
+HKR, Ndi\Params\*IPChecksumOffloadIPv4\Enum, "2",       0, %ChksumOffRx%
+HKR, Ndi\Params\*IPChecksumOffloadIPv4\Enum, "3",       0, %ChksumOffTxRx%
+
+HKR, Ndi\Params\*TCPChecksumOffloadIPv4,      ParamDesc, 0, %TCPChksumOffv4%
+HKR, Ndi\Params\*TCPChecksumOffloadIPv4,      Type,      0, "enum"
+HKR, Ndi\Params\*TCPChecksumOffloadIPv4,      Default,   0, "3"
+HKR, Ndi\Params\*TCPChecksumOffloadIPv4\Enum, "0",       0, %Disabled%
+HKR, Ndi\Params\*TCPChecksumOffloadIPv4\Enum, "1",       0, %ChksumOffTx%
+HKR, Ndi\Params\*TCPChecksumOffloadIPv4\Enum, "2",       0, %ChksumOffRx%
+HKR, Ndi\Params\*TCPChecksumOffloadIPv4\Enum, "3",       0, %ChksumOffTxRx%
+
+HKR, Ndi\Params\*UDPChecksumOffloadIPv4,      ParamDesc, 0, %UDPChksumOffv4%
+HKR, Ndi\Params\*UDPChecksumOffloadIPv4,      Type,      0, "enum"
+HKR, Ndi\Params\*UDPChecksumOffloadIPv4,      Default,   0, "3"
+HKR, Ndi\Params\*UDPChecksumOffloadIPv4\Enum, "0",       0, %Disabled%
+HKR, Ndi\Params\*UDPChecksumOffloadIPv4\Enum, "1",       0, %ChksumOffTx%
+HKR, Ndi\Params\*UDPChecksumOffloadIPv4\Enum, "2",       0, %ChksumOffRx%
+HKR, Ndi\Params\*UDPChecksumOffloadIPv4\Enum, "3",       0, %ChksumOffTxRx%
+
+HKR, Ndi\Params\*TCPChecksumOffloadIPv6,      ParamDesc, 0, %TCPChksumOffv6%
+HKR, Ndi\Params\*TCPChecksumOffloadIPv6,      Type,      0, "enum"
+HKR, Ndi\Params\*TCPChecksumOffloadIPv6,      Default,   0, "3"
+HKR, Ndi\Params\*TCPChecksumOffloadIPv6\Enum, "0",       0, %Disabled%
+HKR, Ndi\Params\*TCPChecksumOffloadIPv6\Enum, "1",       0, %ChksumOffTx%
+HKR, Ndi\Params\*TCPChecksumOffloadIPv6\Enum, "2",       0, %ChksumOffRx%
+HKR, Ndi\Params\*TCPChecksumOffloadIPv6\Enum, "3",       0, %ChksumOffTxRx%
+
+HKR, Ndi\Params\*UDPChecksumOffloadIPv6,      ParamDesc, 0, %UDPChksumOffv6%
+HKR, Ndi\Params\*UDPChecksumOffloadIPv6,      Type,      0, "enum"
+HKR, Ndi\Params\*UDPChecksumOffloadIPv6,      Default,   0, "3"
+HKR, Ndi\Params\*UDPChecksumOffloadIPv6\Enum, "0",       0, %Disabled%
+HKR, Ndi\Params\*UDPChecksumOffloadIPv6\Enum, "1",       0, %ChksumOffTx%
+HKR, Ndi\Params\*UDPChecksumOffloadIPv6\Enum, "2",       0, %ChksumOffRx%
+HKR, Ndi\Params\*UDPChecksumOffloadIPv6\Enum, "3",       0, %ChksumOffTxRx%
+
+HKR, Ndi\Params\*LsoV2IPv4,             ParamDesc, 0, %LsoV2IPv4%
+HKR, Ndi\Params\*LsoV2IPv4,             Type,      0, "enum"
+HKR, Ndi\Params\*LsoV2IPv4,             Default,   0, "1"
+HKR, Ndi\Params\*LsoV2IPv4\Enum,        "0",       0, %Disabled%
+HKR, Ndi\Params\*LsoV2IPv4\Enum,        "1",       0, %Enabled%
+
+HKR, Ndi\Params\*LsoV2IPv6,             ParamDesc, 0, %LsoV2IPv6%
+HKR, Ndi\Params\*LsoV2IPv6,             Type,      0, "enum"
+HKR, Ndi\Params\*LsoV2IPv6,             Default,   0, "1"
+HKR, Ndi\Params\*LsoV2IPv6\Enum,        "0",       0, %Disabled%
+HKR, Ndi\Params\*LsoV2IPv6\Enum,        "1",       0, %Enabled%
+
+; LSO v1 is superseded by v2; kept off like Intel's own INF
+HKR,, *LsoV1IPv4, 0, "0"
+
+[Vlan.Reg]
+HKR, Ndi\Params\*PriorityVLANTag,       ParamDesc, 0, %PriorityVLANTag%
+HKR, Ndi\Params\*PriorityVLANTag,       Type,      0, "enum"
+HKR, Ndi\Params\*PriorityVLANTag,       Default,   0, "3"
+HKR, Ndi\Params\*PriorityVLANTag\Enum,  "0",       0, %PriorityVlanDisabled%
+HKR, Ndi\Params\*PriorityVLANTag\Enum,  "1",       0, %PriorityEnabled%
+HKR, Ndi\Params\*PriorityVLANTag\Enum,  "2",       0, %VlanEnabled%
+HKR, Ndi\Params\*PriorityVLANTag\Enum,  "3",       0, %PriorityVlanEnabled%
+
+HKR, Ndi\Params\VlanID,                 ParamDesc, 0, %VlanID%
+HKR, Ndi\Params\VlanID,                 Type,      0, "long"
+HKR, Ndi\Params\VlanID,                 Default,   0, "0"
+HKR, Ndi\Params\VlanID,                 Min,       0, "0"
+HKR, Ndi\Params\VlanID,                 Max,       0, "4094"
+HKR, Ndi\Params\VlanID,                 Step,      0, "1"
+HKR, Ndi\Params\VlanID,                 Base,      0, "10"
+
+[Interrupt.Reg]
+HKR, Ndi\Params\*InterruptModeration,      ParamDesc, 0, %InterruptModeration%
+HKR, Ndi\Params\*InterruptModeration,      Type,      0, "enum"
+HKR, Ndi\Params\*InterruptModeration,      Default,   0, "1"
+HKR, Ndi\Params\*InterruptModeration\Enum, "0",       0, %Disabled%
+HKR, Ndi\Params\*InterruptModeration\Enum, "1",       0, %Enabled%
+
+HKR, Ndi\Params\ITR,                    ParamDesc, 0, %InterruptThrottleRate%
+HKR, Ndi\Params\ITR,                    Type,      0, "enum"
+HKR, Ndi\Params\ITR,                    Default,   0, "65535"
+HKR, Ndi\Params\ITR\Enum,               "65535",   0, %Adaptive%
+HKR, Ndi\Params\ITR\Enum,               "20000",   0, %Itr20000%
+HKR, Ndi\Params\ITR\Enum,               "8000",    0, %Itr8000%
+HKR, Ndi\Params\ITR\Enum,               "4000",    0, %Itr4000%
+HKR, Ndi\Params\ITR\Enum,               "2000",    0, %Itr2000%
+HKR, Ndi\Params\ITR\Enum,               "0",       0, %Off%
+
+[Power.Reg]
+HKR, Ndi\Params\*WakeOnMagicPacket,      ParamDesc, 0, %WakeOnMagicPacket%
+HKR, Ndi\Params\*WakeOnMagicPacket,      Type,      0, "enum"
+HKR, Ndi\Params\*WakeOnMagicPacket,      Default,   0, "1"
+HKR, Ndi\Params\*WakeOnMagicPacket\Enum, "0",       0, %Disabled%
+HKR, Ndi\Params\*WakeOnMagicPacket\Enum, "1",       0, %Enabled%
+
+HKR, Ndi\Params\WakeFromPowerOff,       ParamDesc, 0, %WakeFromPowerOff%
+HKR, Ndi\Params\WakeFromPowerOff,       Type,      0, "enum"
+HKR, Ndi\Params\WakeFromPowerOff,       Default,   0, "0"
+HKR, Ndi\Params\WakeFromPowerOff\Enum,  "0",       0, %Disabled%
+HKR, Ndi\Params\WakeFromPowerOff\Enum,  "1",       0, %Enabled%
+
+[E1000ev.Service]
+DisplayName    = %E1000ev.Service.DispName%
+ServiceType    = 1           ; SERVICE_KERNEL_DRIVER
+StartType      = 3           ; SERVICE_DEMAND_START
+ErrorControl   = 1           ; SERVICE_ERROR_NORMAL
+ServiceBinary  = %12%\e1000ev.sys
+LoadOrderGroup = NDIS
+
+[E1000ev.EventLog]
+AddReg = E1000ev.AddEventLog.Reg
+
+[E1000ev.AddEventLog.Reg]
+HKR, , EventMessageFile, 0x00020000, "%%SystemRoot%%\System32\netevent.dll"
+HKR, , TypesSupported,   0x00010001, 7
+
+[E1000ev.CopyFiles]
+e1000ev.sys,,,2
+
+[DestinationDirs]
+E1000ev.CopyFiles = 12
+
+[SourceDisksNames]
+1 = %DiskDescription%,,,
+
+[SourceDisksFiles]
+e1000ev.sys = 1
+
+;----------------
+; strings
+;----------------
+
+[Strings]
+Provider                 = "unsoil"
+Intel                    = "Intel"
+DiskDescription          = "IntelVistaEth disk"
+E1000ev.Service.DispName = "Intel I217/I218/I219 NDIS 6.0 Miniport"
+NetworkAddress           = "Locally Administered Address"
+SpeedDuplex              = "Speed & Duplex"
+AutoNegotiation          = "Auto Negotiation"
+10Mb_Half_Duplex         = "10 Mbps Half Duplex"
+10Mb_Full_Duplex         = "10 Mbps Full Duplex"
+100Mb_Half_Duplex        = "100 Mbps Half Duplex"
+100Mb_Full_Duplex        = "100 Mbps Full Duplex"
+1000Mb_Full_Duplex       = "1.0 Gbps Full Duplex"
+FlowControl              = "Flow Control"
+FlowControl_TxOnly       = "Tx Enabled"
+FlowControl_RxOnly       = "Rx Enabled"
+FlowControl_Full         = "Rx & Tx Enabled"
+EEELinkAdvertisement     = "Energy Efficient Ethernet"
+JumboPacket              = "Jumbo Packet"
+Bytes4088                = "4088 Bytes"
+Bytes9014                = "9014 Bytes"
+TransmitBuffers          = "Transmit Buffers"
+ReceiveBuffers           = "Receive Buffers"
+IPChksumOffv4            = "IPv4 Checksum Offload"
+TCPChksumOffv4           = "TCP Checksum Offload (IPv4)"
+UDPChksumOffv4           = "UDP Checksum Offload (IPv4)"
+TCPChksumOffv6           = "TCP Checksum Offload (IPv6)"
+UDPChksumOffv6           = "UDP Checksum Offload (IPv6)"
+ChksumOffTx              = "Tx Enabled"
+ChksumOffRx              = "Rx Enabled"
+ChksumOffTxRx            = "Rx & Tx Enabled"
+LsoV2IPv4                = "Large Send Offload V2 (IPv4)"
+LsoV2IPv6                = "Large Send Offload V2 (IPv6)"
+PriorityVLANTag          = "Packet Priority & VLAN"
+PriorityVlanDisabled     = "Packet Priority & VLAN Disabled"
+PriorityEnabled          = "Packet Priority Enabled"
+VlanEnabled              = "VLAN Enabled"
+PriorityVlanEnabled      = "Packet Priority & VLAN Enabled"
+VlanID                   = "VLAN ID"
+InterruptModeration      = "Interrupt Moderation"
+InterruptThrottleRate    = "Interrupt Moderation Rate"
+Adaptive                 = "Adaptive"
+Itr20000                 = "Low (20000 interrupts/s)"
+Itr8000                  = "Medium (8000 interrupts/s)"
+Itr4000                  = "High (4000 interrupts/s)"
+Itr2000                  = "Extreme (2000 interrupts/s)"
+WakeOnMagicPacket        = "Wake on Magic Packet"
+WakeFromPowerOff         = "Wake on Magic Packet from power off state"
+Enabled                  = "Enabled"
+Disabled                 = "Disabled"
+On                       = "On"
+Off                      = "Off"
+
+E153A.DeviceDesc = "IntelVistaEth I217-LM"
+E153B.DeviceDesc = "IntelVistaEth I217-V"
+E155A.DeviceDesc = "IntelVistaEth I218-LM"
+E1559.DeviceDesc = "IntelVistaEth I218-V"
+E15A0.DeviceDesc = "IntelVistaEth (2) I218-LM"
+E15A1.DeviceDesc = "IntelVistaEth (2) I218-V"
+E15A2.DeviceDesc = "IntelVistaEth (3) I218-LM"
+E15A3.DeviceDesc = "IntelVistaEth (3) I218-V"
+E156F.DeviceDesc = "IntelVistaEth I219-LM"
+E1570.DeviceDesc = "IntelVistaEth I219-V"
+E15B7.DeviceDesc = "IntelVistaEth (2) I219-LM"
+E15B8.DeviceDesc = "IntelVistaEth (2) I219-V"
+E15B9.DeviceDesc = "IntelVistaEth (3) I219-LM"
+E15D7.DeviceDesc = "IntelVistaEth (4) I219-LM"
+E15D8.DeviceDesc = "IntelVistaEth (4) I219-V"
+E15E3.DeviceDesc = "IntelVistaEth (5) I219-LM"
+E15D6.DeviceDesc = "IntelVistaEth (5) I219-V"
+E15BD.DeviceDesc = "IntelVistaEth (6) I219-LM"
+E15BE.DeviceDesc = "IntelVistaEth (6) I219-V"
+E15BB.DeviceDesc = "IntelVistaEth (7) I219-LM"
+E15BC.DeviceDesc = "IntelVistaEth (7) I219-V"
+E15DF.DeviceDesc = "IntelVistaEth (8) I219-LM"
+E15E0.DeviceDesc = "IntelVistaEth (8) I219-V"
+E15E1.DeviceDesc = "IntelVistaEth (9) I219-LM"
+E15E2.DeviceDesc = "IntelVistaEth (9) I219-V"
+E0D4E.DeviceDesc = "IntelVistaEth (10) I219-LM"
+E0D4F.DeviceDesc = "IntelVistaEth (10) I219-V"
+E0D4C.DeviceDesc = "IntelVistaEth (11) I219-LM"
+E0D4D.DeviceDesc = "IntelVistaEth (11) I219-V"
+E0D53.DeviceDesc = "IntelVistaEth (12) I219-LM"
+E0D55.DeviceDesc = "IntelVistaEth (12) I219-V"
+E15FB.DeviceDesc = "IntelVistaEth (13) I219-LM"
+E15FC.DeviceDesc = "IntelVistaEth (13) I219-V"
+E15F9.DeviceDesc = "IntelVistaEth (14) I219-LM"
+E15FA.DeviceDesc = "IntelVistaEth (14) I219-V"
+E15F4.DeviceDesc = "IntelVistaEth (15) I219-LM"
+E15F5.DeviceDesc = "IntelVistaEth (15) I219-V"
+E1A1E.DeviceDesc = "IntelVistaEth (16) I219-LM"
+E1A1F.DeviceDesc = "IntelVistaEth (16) I219-V"
+E1A1C.DeviceDesc = "IntelVistaEth (17) I219-LM"
+E1A1D.DeviceDesc = "IntelVistaEth (17) I219-V"
+E550A.DeviceDesc = "IntelVistaEth (18) I219-LM"
+E550B.DeviceDesc = "IntelVistaEth (18) I219-V"
+E550C.DeviceDesc = "IntelVistaEth (19) I219-LM"
+E550D.DeviceDesc = "IntelVistaEth (19) I219-V"
+E550E.DeviceDesc = "IntelVistaEth (20) I219-LM"
+E550F.DeviceDesc = "IntelVistaEth (20) I219-V"
+E5510.DeviceDesc = "IntelVistaEth (21) I219-LM"
+E5511.DeviceDesc = "IntelVistaEth (21) I219-V"
+E0DC7.DeviceDesc = "IntelVistaEth (22) I219-LM"
+E0DC8.DeviceDesc = "IntelVistaEth (22) I219-V"
+E0DC5.DeviceDesc = "IntelVistaEth (23) I219-LM"
+E0DC6.DeviceDesc = "IntelVistaEth (23) I219-V"
+E57A0.DeviceDesc = "IntelVistaEth (24) I219-LM"
+E57A1.DeviceDesc = "IntelVistaEth (24) I219-V"
+E57B3.DeviceDesc = "IntelVistaEth (25) I219-LM"
+E57B4.DeviceDesc = "IntelVistaEth (25) I219-V"
+E57B7.DeviceDesc = "IntelVistaEth (27) I219-LM"
+E57B8.DeviceDesc = "IntelVistaEth (27) I219-V"
+E57B9.DeviceDesc = "IntelVistaEth (29) I219-LM"
+E57BA.DeviceDesc = "IntelVistaEth (29) I219-V"

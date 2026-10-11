@@ -1,0 +1,23 @@
+TARGETNAME=e1000ev
+TARGETTYPE=DRIVER
+
+C_DEFINES=$(C_DEFINES) -DNDIS_MINIPORT_DRIVER=1 -DNDIS60_MINIPORT=1 -DNDIS_WDM=1
+
+TARGETLIBS=$(DDK_LIB_PATH)\ndis.lib
+
+MSC_WARNING_LEVEL=/W3 /WX
+
+INCLUDES=.
+
+SOURCES=\
+	osdep.c \
+	ich8lan.c \
+	mac.c \
+	phy.c \
+	nvm.c \
+	manage.c \
+	e1000_hw_ops.c \
+	e1000_txrx.c \
+	e1000_oid.c \
+	e1000_main.c \
+	e1000ev.rc
